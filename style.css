@@ -1,0 +1,19 @@
+body {
+    color: #FFFFFF;
+    background-color: black;
+    font-family: Arial;
+}
+.center-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;         
+  width: 100vw;           
+}
+audio {
+  display: block;
+  margin: 20px auto; /* Centers the player horizontally */
+  position: absolute; /* Positions the player relative to a parent or the document */
+  top: 50px;
+  left: 100px;
+}
