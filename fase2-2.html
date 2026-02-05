@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>sonata</title>
+    <link rel="icon" type="image/x-icon" href="icone.png">
+    <audio controls loop>
+        <source src="camada2.wav">
+    </audio>
+<link rel="stylesheet" type="text/css" href="style.css" /></head>
+<body>
+<div class="image-container">
+    <audio id="audio" src="mus.wav" preload="auto"></audio>
+
+    <img id="musica" src="musical.png" alt="vamos tocar!">
+
+    <script>
+        const audioImage = document.getElementById('audioImage');
+        const audio = document.getElementById('myAudio');
+
+        audioImage.addEventListener('click', function() {
+            audio.currentTime = 0; 
+            audio.play();
+        });
+    </script>
+</div>
+</body>
+</html>
+
+
+
