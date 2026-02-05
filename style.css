@@ -12,8 +12,9 @@ body {
 }
 audio {
   display: block;
-  margin: 20px auto; /* Centers the player horizontally */
-  position: absolute; /* Positions the player relative to a parent or the document */
+  margin: 20px auto;
+  position: absolute;
   top: 50px;
   left: 100px;
+
 }
