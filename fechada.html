@@ -8,10 +8,21 @@
 <link rel="stylesheet" type="text/css" href="style.css" /></head>
 <body>
 <div class="image-container">
-    <img src="cookie.png">
+    <audio id="audio" scr="cookie.mp3" preload="auto"></audio>
+    <img id="musica src="cookie.png">
     <p>é o meu</p>
+
+    <script>
+        const audioImage = document.getElementById('musica');
+        const audio = document.getElementById('audio');
+        audioImage.addEventListener('click', function() {
+            audio.currentTime = 0; 
+            audio.play();
+        });
+    </script>
 </div>
 </body>
 </html>
 
 <!--Muito bom inclusive-->
+
