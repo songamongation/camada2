@@ -13,10 +13,11 @@
 
     <img style="cursor: pointer;" id="musica" src="musical.png" alt="vamos tocar!">
 
+    <!--ignore, é só javascript pra tocar o som quando clicar na imagem-->
     <script>
         const audioImage = document.getElementById('musica');
         const audio = document.getElementById('audio');
-
+        document.cookie = "fase2-4=chocolate; path=/";
         audioImage.addEventListener('click', function() {
             audio.currentTime = 0; 
             audio.play();
@@ -25,6 +26,7 @@
 </div>
 </body>
 </html>
+
 
 
 
